@@ -5,7 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bowling.Tests
+// namespace Bowling.Tests
+namespace Bowling.FSharp.Tests
 {
     [TestFixture]
     public class GameTest
@@ -195,13 +196,13 @@ namespace Bowling.Tests
             Assert.That(g.Score(), Is.EqualTo(72));
         }
 
-        [Test]
-        public void 入力を複数回受け付ける()
-        {
-            var g = new Game();
-            g.Roll(3, 5, 1, 1, 2, 3, 5, 5, 2, 3, 10, 2, 3, 1, 1, 3, 0, 5, 5, 5);
+        //[Test]
+        //public void 入力を複数回受け付ける()
+        //{
+        //    var g = new Game();
+        //    g.Roll(3, 5, 1, 1, 2, 3, 5, 5, 2, 3, 10, 2, 3, 1, 1, 3, 0, 5, 5, 5);
         
-            Assert.That(g.Score(), Is.EqualTo(72));
-        }
+        //    Assert.That(g.Score(), Is.EqualTo(72));
+        //}
     }
 }

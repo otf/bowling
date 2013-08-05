@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling", "Bowling\Bowling.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Tests", "Bowling.Tests\Bowling.Tests.csproj", "{7E54C0CE-8A88-4336-A5A4-69ECBEF882E7}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Bowling.FSharp", "Bowling.FSharp\Bowling.FSharp.fsproj", "{418F0FB3-7FD5-4459-AFFA-591907F4A566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{7E54C0CE-8A88-4336-A5A4-69ECBEF882E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E54C0CE-8A88-4336-A5A4-69ECBEF882E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E54C0CE-8A88-4336-A5A4-69ECBEF882E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418F0FB3-7FD5-4459-AFFA-591907F4A566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418F0FB3-7FD5-4459-AFFA-591907F4A566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418F0FB3-7FD5-4459-AFFA-591907F4A566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418F0FB3-7FD5-4459-AFFA-591907F4A566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
